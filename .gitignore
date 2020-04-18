@@ -1,0 +1,17 @@
+#----------------------------------------------------------
+# Application main configurations
+#----------------------------------------------------------
+composer.json
+*/vendor/*
+.env
+docker-compose.yml
+./source/Config.php
+
+#----------------------------------------------------------
+# IDE configurations
+#----------------------------------------------------------
+.vscode
+.idea
+
+# [^.]*     Comento tudo
+# !teste    forço qual pasta quero rastrear
