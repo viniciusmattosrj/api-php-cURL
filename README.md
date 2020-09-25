@@ -42,7 +42,7 @@ git config core.fileMode false
 
 Entre pelo terminal na pasta do projeto e rode:
 ```
-cp -v ./docker-compose-example.php  ./docker-compose.php
+cp -v ./docker-compose-example.yml  ./docker-compose.yml
 ```
 
 Para subir os containers docker execute:
