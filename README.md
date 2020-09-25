@@ -11,13 +11,13 @@ Como consumir API no PHP com cURL.
 
 - PHP >= 7.3
 
-- Postgres >= 9.6 ou Mysql >= 5.7
+- Postgres >= 11 ou Mysql >= 5.7
 
 
 ## Instalação
-Realizar o git clone do projeto base para o funcionamento da sua rede docker:
+Para o correto funcionamento dos serviços base na rede do docker, execute o comando para clonar o projeto:
 ```bash
-git@github.com:viniciusmattosrj/projetos.git
+git clone git@github.com:viniciusmattosrj/projetos.git
 ```
 
 Para que o git não considere alterações de permissão como modificações a serem rastreadas, execute:
@@ -25,14 +25,14 @@ Para que o git não considere alterações de permissão como modificações a s
 git config core.fileMode false
 ```
 
-Agora suba o servidor:
+Para subir os containers docker execute:
 ```
 docker-compose up -d
 ```
 
-Navege até dentro da pasta projetos e realize o git clone do projeto
-```bash
-cd projetos && git@github.com:viniciusmattosrj/api-php-curl.git
+Navege até dentro da pasta projetos e realize o git clone do projeto:
+```
+cd projetos && git clone git@github.com:viniciusmattosrj/api-php-curl.git
 ```
 
 Para que o git não considere alterações de permissão como modificações a serem rastreadas, execute:
@@ -42,10 +42,10 @@ git config core.fileMode false
 
 Entre pelo terminal na pasta do projeto e rode:
 ```
-cp ./docker-compose-example.php  ./docker-compose.php
+cp -v ./docker-compose-example.php  ./docker-compose.php
 ```
 
-Agora suba o servidor:
+Para subir os containers docker execute:
 ```
 docker-compose up -d
 ```
